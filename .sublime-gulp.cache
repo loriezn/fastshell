@@ -1,0 +1,1 @@
+{"/home/loki/projects.io/resume/gulpfile.js":{"sha1":"aedd1bff1338b25c39b8cfe77a7843123a1e166e","tasks":{"css":{"name":"css","dependencies":""},"js":{"name":"js","dependencies":""},"browser-sync":{"name":"browser-sync","dependencies":""},"bs-reload":{"name":"bs-reload","dependencies":""},"default":{"name":"default","dependencies":"css js browser-sync"}}}}

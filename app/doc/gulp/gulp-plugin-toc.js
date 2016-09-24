@@ -1,3 +1,49 @@
+/* * gulp file cheetsheet
+ * 
+ * I've been slowly teaching myself to program and the web languages of late.
+ * 
+ * I am learning the fundamentals of js by learning to use and hack the 
+ *  tooling around it.
+ *
+ * This file is not to be used in a production environment.
+ */ 
+
+
+gulp-bower 
+gulp-prompt
+gulp-responsive 
+gulp-fixmyjs 
+gulp-autopolyfiller 
+gulp-modernizr 
+gulp-sassdoc
+gulp-newer 
+gulp-imagemin 
+gulp-preprocess 
+gulp-filter 
+gulp-sitemap 
+gulp-cache 
+gulp-changed 
+gulp-debug 
+gulp-resume 
+gulp-open 
+gulp-data 
+gulp-run 
+gulp-todo 
+gulp-favicons 
+gulp-iconfont-css 
+gulp-sitemap 
+gulp-hub
+gulp-sassdoc
+gulp-posthtml 
+gulp-json-lint cssnext 
+gulp-if 
+gulp-uncss 
+gulp-clean 
+gulp-csscomb 
+gulp-install 
+gulp-conflict
+
+
 {
   "name": "digitalWeisenheimer",
   "title": "The life & times of Lorin Zahra-Newman",

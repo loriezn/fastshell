@@ -1,0 +1,380 @@
+{
+  "basics": {
+    "name": "Lorin Zahra-Newman",
+    "label": "Digital Weisenheimer",
+    "phone": "+61 414 987 747",
+    "website": "https://loriezn.github.io",
+    "tl;dr":  "Passionate about IT, business and scuba. Strong sys admin skills and seeking to expand my knowledge into the development world.",
+    "summary": "\nAbout:\nPassionate about all things tech & scuba with a diverse skill set ranging from systems administration to small business management, film production, group training and leadership. I am seeking a shift from the small business world into an environment that will allow me to further develop my programming and IT skill set.  \n\nLiving on the forefront of IT in Australia, over the last 30 years I have witnessed my parents launch their time management software Smart Alarms into space on the 91 Atlantis Shuttle mission, the proliferation of networks and the rise and fall of the dotcom boom & health information systems beyond.  \n\nOver the past two years I've been teaching myself program, and shifting from the MS ecosystem and into the opensource linux/BSD world. I am comfortable in most basic front and back end languages and the explosion of tooling that's occurred for both web development and systems administration. \n\nProficient in bash scripting and both Debian flavor'd distributions, FreeBSD, and more recently Arch Linux. Comfortable with config and use of Ansible, Vagrant, Docker, Nginx, SSH, LetsEncrypt/OpenSSL, PHP/SQL server configs & basic query/scripting, basic use of NodeJS, NPM, Bower. \n\nCurrently learning the idiosyncrasies of Javascript before moving onto some of the task runners and frameworks out in the wild.",
+    "location": {
+      "address": "PO Box 289\nPenrith NSW 2751",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": [],
+    "email": "lorin@affinityskin.com.au"
+  },
+  "work": [
+    {
+      "company": "Affinity Skin Cancer Clinics",
+      "position": "Major Stakeholer",
+      "website": "",
+      "startDate": "2015-07-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Lady Elliot Island Eco Resort",
+      "position": "IT Technical Consultant",
+      "website": "",
+      "startDate": "2013-09-01",
+      "summary": "Whilst working as a dive instructor, I also started consulting LEI on their current IT systems and provided technical support and maintenance to their infrastructure as required. I contracted these services out through my company Aquanaut Expeditions.\n\nDuties involved:\n•\tAdvised on new backup procedures to be implemented, including offsite backups \n•\tChecked and maintained backup system in place\n•\tInstalled additional node on network, managed infrastructure and liaised with ISP’s\n•\tAdvised on specifications for new or replacement hardware \n•\tRepaired computers and migrated data as required\n•\tSupported POS system; liaising with POS vendor’s technical support\n•\tConfigure workstation user profiles, applications, printers and email for new staff\n•\tCleaned operating systems and preformed virus scans on workstations as required\n•\tGeneral application support and staff training as required",
+      "highlights": [],
+      "endDate": "2014-05-01"
+    },
+    {
+      "company": "Lady Elliot Island Eco Resort",
+      "position": "Dive Instructor",
+      "website": "",
+      "startDate": "2013-05-01",
+      "summary": "Though an amazing job and great passion of mine, the simplicity of this role left me unchallenged and I found myself asserting my other various skills within the company.\n\nDuties involved:\n•\tGuiding dive groups of up to 8 customers at a time\n•\tTeaching dive courses\n•\tLeading and presenting boat tours\n•\tServicing equipment and tank valves\n•\tDaily customer service and interaction with guests\n•\tProviding informative and accurate information to guests about sea states and conditions \n•\tProviding first aid to guests as required\n•\tProviding assistance in the rescue and resuscitation of guests as required\n•\tSelling stocked cameras, dive gear & inventory\n•\tPromoting off-peak periods to guests and creating return customers\n•\tOrganising daily boat manifests & planning next day’s schedule\n•\tEnd of day reporting procedures and tallying of monies \n•\tMonthly stock-take\n•\tOpening and closing shop\n•\tGeneral cleaning and keeping the shop tidy",
+      "highlights": [],
+      "endDate": "2014-05-01"
+    },
+    {
+      "company": "Heliocentrix Media Pty Ltd",
+      "position": "Production Viceroy",
+      "website": "",
+      "startDate": "2012-06-01",
+      "summary": "Starting a media production company was a great (and expensive) learning experience in a difficult but exciting industry. I enjoyed working on several film productions and developed a robust system for managing the business/productions operations.\n\nDuties involved: \n•\tCreated, shot & edited short film – A Series of Precarious Predicaments\n•\tProduced short film for client – Eviction\n•\tCollaborated on feature film – Convict\n•\tNegotiated Nepalese co-production Super Gorkhe \n\tSecured rights\n\tRecorded title song\n\tShot music video\n•\tDeveloped product line for actor showreels\n\tCreated promo video/ad\n•\tDesigned and implemented a cloud based management system, by customizing and integrating several online SAAS & cloud tools, to allow for the tracking and delegation of production workflows, documents, contracts, financials, etc.",
+      "highlights": [],
+      "endDate": "2013-04-01"
+    },
+    {
+      "company": "Aquanaut Expeditions | Journey Beneath the Liquid Horizon.",
+      "position": "Scuba Instructor & Expedition Leader",
+      "website": "",
+      "startDate": "2011-02-01",
+      "summary": "Training and leading scuba divers safely underwater for the last four years.",
+      "highlights": []
+    },
+    {
+      "company": "MATZN Pty Ltd",
+      "position": "Financial Controller",
+      "website": "",
+      "startDate": "2004-01-01",
+      "summary": "Bank Reconciliation\nAccounts Payable/Receivable\nEOY/EOM Procedures\nPreparation of financial reports",
+      "highlights": [],
+      "endDate": "2011-06-01"
+    },
+    {
+      "company": "Zahra-Newman Pty Ltd",
+      "position": "Financial Controller",
+      "website": "",
+      "startDate": "2004-01-01",
+      "summary": "",
+      "highlights": [],
+      "endDate": "2011-06-01"
+    },
+    {
+      "company": "JAM Software Pty Ltd",
+      "position": "General Manager",
+      "website": "",
+      "startDate": "2004-01-01",
+      "summary": "My family founded JAM in 1984, developing time & practice management software for healthcare practitioners; a small family business that still continues on today. \nSurrounded by professionals, I grew up on the forefront of technology in Australia, working and learning from the various minor facets of the company, \nAs a young adult I spent almost 10 years working through the various areas of the company starting as the reception/bookkeeper and working right through to general management. \n\nDuties involved: \n•\tSoftware design and development\n•\tGeneral management\n•\tOffice administration & accounts\n•\tSales rep and marketer\n•\tInstallation and systems trainer\n•\tCustomer service technician\n\nMy time at JAM taught me a lot in IT & small business but also showed me that I needed to move forward and find my own path.",
+      "highlights": [],
+      "endDate": "2012-11-01"
+    },
+    {
+      "company": "Strathfield Strata Management Pty Ltd",
+      "position": "Accounts Assistant",
+      "website": "",
+      "startDate": "2002-12-01",
+      "summary": "One of my first real jobs out of school and during my accounting diploma. I helped manage 400 units’ accounts and after working with auditors for 18months, I decided to return to the family business and manage JAM’s accounts and admin.\n\nDuties involved:\n•\tProcessing of expense invoices into strata system\n•\tGenerating and sending of monthly levies\n•\tCollating and filing of paperwork\n•\tLiaising with auditors and providing assistance as required\n•\tCustomer service; answering phone/greeting customers\n•\tAssisting strata managers as required\n•\tCollecting money and banking",
+      "highlights": [],
+      "endDate": "2004-07-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "TAFE",
+      "area": "",
+      "studyType": "Diploma of Accounting",
+      "startDate": "2001-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2003-01-01"
+    },
+    {
+      "institution": "Abyss Scuba Diving",
+      "area": "",
+      "studyType": "Speciality Instructor (Search & Recovery)",
+      "startDate": "2012-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2012-01-01"
+    },
+    {
+      "institution": "Australian Film, Television & Radio School",
+      "area": "",
+      "studyType": "Underwater Cinematograhy (Theory & Practice) with Jon Shaw",
+      "startDate": "2012-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2012-01-01"
+    },
+    {
+      "institution": "Australian Film Base",
+      "area": "",
+      "studyType": "4 Month Film School",
+      "startDate": "2012-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2012-01-01"
+    },
+    {
+      "institution": "Abyss Scuba Diving",
+      "area": "",
+      "studyType": "Divemaster",
+      "startDate": "2011-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2011-01-01"
+    },
+    {
+      "institution": "HealthCertIT",
+      "area": "",
+      "studyType": "SCBMWEB: Business Management in Skin Cancer",
+      "startDate": "2015-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2015-01-01"
+    },
+    {
+      "institution": "Trinity Grammar School",
+      "area": "",
+      "studyType": "High School",
+      "startDate": "1997-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2003-01-01"
+    },
+    {
+      "institution": "Abyss Scuba Diving",
+      "area": "",
+      "studyType": "Emergency First Responder Instructor",
+      "startDate": "2012-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2012-01-01"
+    },
+    {
+      "institution": "Abyss Scuba Diving",
+      "area": "",
+      "studyType": "Open Water Scuba Instructor",
+      "startDate": "2012-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2012-01-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Short Films",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Leadership",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Film Production",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Master Scuba Diver",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Scuba Diving",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Feature Films",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bookkeeping",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Medical Records",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "System Deployment",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Marketing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cinematography",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "IT Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "IT systems development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Search and Recovery Diver",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Open Water Scuba Instructor",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Television",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Emergency First Response Instructor",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Practice Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Social Media",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "small busin",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Social Media Marketing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Business Administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Sales",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Medical Practice Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Photography",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Event Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Training",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Small Business",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Film",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Media Production Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "System Administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "IT Solutions",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Business Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PADI Divemaster",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Customer Service",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Marketing Strategy",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Medical Practice Operations",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Directing",
+      "level": "",
+      "keywords": []
+    }
+  ]
+}
