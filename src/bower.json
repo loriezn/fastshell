@@ -1,0 +1,29 @@
+{
+  "name": "digitalWeisenheimer",
+  "version": "0.1.0",
+  "directory": "src/components/",
+  "description": "The life & times of Lorin Zahra-Newman",
+  "main": "gulpfile.js package.json",
+  "authors": [
+    "Lorin Zahra-Newman"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Lorin",
+    "Zahra-Newman"
+  ],
+  "homepage": "https://loriezn.github.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "*",
+    "modernizr": "*",
+    "font-awesome": "*"
+  }
+}

@@ -20,6 +20,7 @@
     "gulp-changed": "*",
     "gulp-clean": "*",
     "gulp-conflict": "*",
+    "gulp-copy": "0.0.2",
     "gulp-csscomb": "*",
     "gulp-cssnano": "*",
     "gulp-data": "*",
