@@ -7,41 +7,41 @@
  That aside, welcome to my third frontendish project all about me. The aim of this project is to create a small digitial space that I can use as a platform to improve my development skills and experiment with design concepts and interfaces.
  
  ### Running Projects
- #### [ ] Personal Website
- [x] JSON Resume
- [ ] 
- [x] Basic Gulp/Postcss Build System
- [ ] Github Page Deployment
- [ ] Custom tweaked build system
+ - [ ] Personal Website
+ - [x] JSON Resume
+ - [ ] 
+ - [x] Basic Gulp/Postcss Build System
+ - [ ] Github Page Deployment
+ - [ ] Custom tweaked build system
  
- #### [ ] Automagical Media Server (mediahubzn) 
- [x] assemble server
- [x] create jbod partition with [MergerFS](https://github.com/trapexit/mergerfs)
- [ ] install application services
-    [ ] [couchpotato](git@github.com:CouchPotato/CouchPotatoServer.git)
-    [ ] [sickrage](https://github.com/SiCKRAGETV/SiCKRAGE)
-    [ ] [headphones](https://github.com/rembo10/headphones)
-    [ ] [plex media server](https://www.plex.tv)
-    [ ] [muximux webportal](https://github.com/mescon/Muximux)
-    [ ] [snapRAID]( )
- [ ] configure application settings
-    [ ] 
+ - [ ] Automagical Media Server (mediahubzn) 
+ - [x] assemble server
+ - [x] create jbod partition with [MergerFS](https://github.com/trapexit/mergerfs)
+ - [ ] install application services
+  - [ ] [couchpotato](git@github.com:CouchPotato/CouchPotatoServer.git)
+  - [ ] [sickrage](https://github.com/SiCKRAGETV/SiCKRAGE)
+  - [ ] [headphones](https://github.com/rembo10/headphones)
+  - [ ] [plex media server](https://www.plex.tv)
+  - [ ] [muximux webportal](https://github.com/mescon/Muximux)
+  - [ ] [snapRAID]( )
+ - [ ] configure application settings
+ - [ ] configure proxie forwards
  
  
  
  #### Project Ideas
- [ ] Yeoman Project Scafold
- [ ] Tweaked Ansible Provisioning Playbooks
+ - [ ] Yeoman Project Scafold
+ - [ ] Tweaked Ansible Provisioning Playbooks
  
  #### Hibernating Projects
- [ ] Teaching Hubot to speak english
- [ ] Bash dotfiles installer script menu & api
+ - [ ] Teaching Hubot to speak english
+ - [ ] Bash dotfiles installer script menu & api
  
  #### Still to learn
- [x] Javascript Basics
- [ ] Javascript Tooling & Build Systems
- [ ] jquery & other libraries.
- [ ] 
+ - [x] Javascript Basics
+ - [ ] Javascript Tooling & Build Systems
+ - [ ] jquery & other libraries.
+ - [ ] 
  
 #### This wouldn't have been possible without the hard work from the guys of [FastShell](http://HosseiKrami.githuub.io/fastschell).
 
