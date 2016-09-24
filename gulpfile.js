@@ -52,6 +52,21 @@ gulp.task('js',function(){
     .pipe(browserSync.reload({stream:true, once: true}));
 });
 
+ 
+gulp.task('resume', function() {
+  return gulp.src('app/assets/resume.json')
+    .pipe(resume({
+      format: 'html',
+      theme: 'elegant'
+    }))
+    .pipe(rename('app/assets/html/resume.html'))
+    .pipe(gulp.dest('.'));
+});
+
+/*gulp.task('html', function()) {
+    return gulp.src(app)
+}*/
+
 gulp.task('browser-sync', function() {
     browserSync.init(null, {
         server: {
@@ -67,4 +82,5 @@ gulp.task('default', ['css', 'js', 'browser-sync'], function () {
     gulp.watch("src/scss/*/*.scss", ['css']);
     gulp.watch("src/js/*.js", ['js']);
     gulp.watch("app/*.html", ['bs-reload']);
+    gulp.watch("app/assets/html/*.html", ['bs-reload']);
 });
