@@ -1,4 +1,7 @@
-# FastShell
+
+
+## This wouldn't have been possible without the hard work from the guys of FastShell.
+
 [![Build Status](https://travis-ci.org/HosseinKarami/fastshell.png?branch=master)](https://travis-ci.org/HosseinKarami/fastshell)
 
 inspired by [FireShell](http://getfireshell.com)
