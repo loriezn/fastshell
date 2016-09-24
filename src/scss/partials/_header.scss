@@ -1,14 +1,12 @@
 .header {
 	margin: 0;
-	padding: 5vh;
+	padding: 2vmin;
 	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 .logo {
   @include position(auto);
   img {
-  	height: 50vh;
+  	height: 10vh;
   	width: auto;
   }
 }

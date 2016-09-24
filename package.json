@@ -27,6 +27,7 @@
     "gulp-favicons": "^2.2.6",
     "gulp-filter": "^4.0.0",
     "gulp-fixmyjs": "^1.0.2",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-header": "*",
     "gulp-hub": "^0.8.0",
     "gulp-iconfont-css": "^2.1.0",

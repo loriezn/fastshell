@@ -1,3 +1,14 @@
+/* * gulp file cheetsheet
+ * 
+ * I've been slowly teaching myself to program and the web languages of late.
+ * 
+ * I am learning the fundamentals of js by learning to use and hack the 
+ *  tooling around it.
+ *
+ * This file is not to be used in a production environment.
+ */ 
+
+// VARS
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
     browserSync = require('browser-sync'),
@@ -8,9 +19,15 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     cssnano = require('gulp-cssnano'),
     sourcemaps = require('gulp-sourcemaps'),
+    resume = require('gulp-resume'),
+    rename = require('gulp-rename'),
+    ghPages = require('gulp-gh-pages'),
     package = require('./package.json');
 
+const imagemin = require('gulp-imagemin');
 
+
+// BANNER
 var banner = [
   '/*!\n' +
   ' * <%= package.name %>\n' +
@@ -23,6 +40,7 @@ var banner = [
   '\n'
 ].join('');
 
+// CSS
 gulp.task('css', function () {
     return gulp.src('src/scss/style.scss')
     .pipe(sourcemaps.init())
@@ -37,6 +55,7 @@ gulp.task('css', function () {
     .pipe(browserSync.reload({stream:true}));
 });
 
+// JS
 gulp.task('js',function(){
   gulp.src('src/js/scripts.js')
     .pipe(sourcemaps.init())
@@ -53,6 +72,7 @@ gulp.task('js',function(){
 });
 
  
+// JSON RESUME
 gulp.task('resume', function() {
   return gulp.src('app/assets/resume.json')
     .pipe(resume({
@@ -63,10 +83,26 @@ gulp.task('resume', function() {
     .pipe(gulp.dest('.'));
 });
 
+
+// GITHUB PAGES
+gulp.task('ghDeploy', function() {
+  return gulp.src('./dist/**/*')
+    .pipe(ghPages());
+});
+
+// IMAGEMIN
+gulp.task('default', () =>
+    gulp.src('src/images/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('dist/images'))
+);
+
+// HTML
 /*gulp.task('html', function()) {
     return gulp.src(app)
 }*/
 
+// BROWSER SYNC
 gulp.task('browser-sync', function() {
     browserSync.init(null, {
         server: {

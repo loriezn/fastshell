@@ -14,7 +14,7 @@
 
 html {
   font-size: 62.5%;
-  background: radial-gradient(ellipse at center, #F7F6F0 0, #c2ba8c 80%, #b0a66b 100%); }
+  background: radial-gradient(ellipse at center, #0099c4 0, #00222b 80%, black 100%); }
 
 body {
   font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
@@ -24,6 +24,19 @@ body {
 body, html {
   min-height: 100vh;
   overflow: hidden; }
+
+ul {
+  font-size: 1.6em;
+  margin: 0;
+  list-style: none;
+  padding: 2vh; }
+
+ul li {
+  padding: 1vh; }
+
+ul li a {
+  text-decoration: none;
+  color: #FFF; }
 
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -393,25 +406,24 @@ textarea {
 
 .header {
   margin: 0;
-  padding: 5vh;
+  padding: 2vmin;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  display: flex; }
 
 .logo {
   position: auto; }
   .logo img {
-    height: 50vh;
+    height: 10vh;
     width: auto; }
 
 .nav ul {
-  list-style: none; }
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row; }
 
 @font-face {
   font-family: 'Font-Name';
