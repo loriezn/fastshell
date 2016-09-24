@@ -20,12 +20,13 @@ var gulp = require('gulp'),
     cssnano = require('gulp-cssnano'),
     sourcemaps = require('gulp-sourcemaps'),
     resume = require('gulp-resume'),
+    clean = require('gulp-clean'),
     rename = require('gulp-rename'),
     ghPages = require('gulp-gh-pages'),
+    imagemin = require('gulp-imagemin'),
+    responsive = require('gulp-responsive'),
+    imageop = require('gulp-image-optimization'),
     package = require('./package.json');
-
-const imagemin = require('gulp-imagemin');
-
 
 // BANNER
 var banner = [
@@ -39,6 +40,19 @@ var banner = [
   ' */',
   '\n'
 ].join('');
+
+// CLEAN
+gulp.task('clean-scripts', function () {
+  return gulp.src('app/tmp/*.js', {read: false})
+    .pipe(clean());
+});
+
+gulp.task('scripts', ['clean-scripts'], function () {
+  gulp.src('app/scripts/*.js')
+    .pipe(gulp.dest('app/tmp'));
+});
+
+gulp.task('clean', ['scripts']);
 
 // CSS
 gulp.task('css', function () {
@@ -90,12 +104,71 @@ gulp.task('ghDeploy', function() {
     .pipe(ghPages());
 });
 
-// IMAGEMIN
-gulp.task('default', () =>
+gulp.task('minimages', () =>
     gulp.src('src/images/*')
         .pipe(imagemin())
         .pipe(gulp.dest('dist/images'))
 );
+
+// IMAGES
+gulp.task('images', function(cb) {
+    gulp.src('app/asstes/img/*.+(png|jpg|gif|jpeg)')
+    .pipe(imageop({
+        optimizationLevel: 5,
+        progressive: true,
+        interlaced: true
+    }))
+    .pipe(gulp.dest('app/assets/img'))
+    .on('end', cb).on('error', cb)
+    ;
+});
+// RESPONSIVE IMAGES
+gulp.task('imgresp', function () {
+  return gulp.src('src/*.{png,jpg}')
+    .pipe(responsive({
+      'background-*.jpg': {
+        width: 700,
+        quality: 50
+      },
+      'cover.png': {
+        width: '50%',
+        // convert to jpeg format
+        format: 'jpeg',
+        rename: 'cover.jpg'
+      },
+      // produce multiple images from one source
+      'logo.png': [
+        {
+          width: 200
+        },{
+          width: 200 * 2,
+          rename: 'logo@2x.png'
+        }
+      ]
+    }))
+    .pipe(responsive({
+      'background-*.jpg': {
+        width: 700,
+        quality: 50
+      },
+      'cover.png': {
+        width: '50%',
+        // convert to jpeg format
+        format: 'jpeg',
+        rename: 'cover.jpg'
+      },
+      // produce multiple images from one source
+      'logo.png': [
+        {
+          width: 200
+        },{
+          width: 200 * 2,
+          rename: 'logo@2x.png'
+        }
+      ]
+    }))
+    .pipe(gulp.dest('app/assets/img'));
+});
 
 // HTML
 /*gulp.task('html', function()) {
