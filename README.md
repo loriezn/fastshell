@@ -6,8 +6,8 @@
  
  That aside, welcome to my third frontendish project all about me. The aim of this project is to create a small digitial space that I can use as a platform to improve my development skills and experiment with design concepts and interfaces.
  
- ### Running Projects
- - [ ] Personal Website
+### Running Projects
+- [ ] __Personal Website__
  - [x] JSON Resume
  - [ ] 
  - [x] Basic Gulp/Postcss Build System
