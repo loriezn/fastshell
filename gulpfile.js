@@ -81,7 +81,7 @@ gulp.task('resume', function() {
       format: 'html',
       theme: 'elegant'
     }))
-    .pipe(rename('src/html/resume.html'))
+    .pipe(rename('tmp/html/resume.html'))
     .pipe(gulp.dest('.'));
 });
 
@@ -172,7 +172,7 @@ gulp.task('scripts', ['clean-scripts'], function () {
 gulp.task('clean', ['scripts']);
 
 return gulp.src("tmp/**/*")
-  .pipe(gulp.dest('app/'));
+  .pipe(gulp.dest('app/assets/'));
 });
 
 // CLEAN
