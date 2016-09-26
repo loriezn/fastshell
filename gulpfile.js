@@ -20,9 +20,9 @@ var gulp = require('gulp'),
     cssnano = require('gulp-cssnano'),
     sourcemaps = require('gulp-sourcemaps'),
     resume = require('gulp-resume'),
-    clean = require('gulp-clean'),
+    cleanme = require('gulp-clean'),
     rename = require('gulp-rename'),
-    ghPages = require('gulp-gh-pages'),
+    github = require('gulp-gh-pages'),
     imagemin = require('gulp-imagemin'),
     responsive = require('gulp-responsive'),
     imageop = require('gulp-image-optimization'),
@@ -157,9 +157,9 @@ gulp.task('imgresp', function () {
 }*/
 
 // GITHUB PAGES
-gulp.task('ghDeploy', function() {
+gulp.task('gitdeploy', function() {
   return gulp.src('./dist/**/*')
-    .pipe(ghPages());
+    .pipe(github());
 });
 
 // COPY
@@ -176,9 +176,14 @@ return gulp.src("tmp/**/*")
 });
 
 // CLEAN
+gulp.task('clean', function() {
+  return gulp.src('tmp/**/*.*', {read: false})
+    .pipe(cleanme());
+});
+
 gulp.task('clean-scripts', function () {
   return gulp.src('tmp/js/*.js', {read: false})
-    .pipe(clean());
+    .pipe(cleanme());
 });
 
 // BROWSER SYNC
